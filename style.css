@@ -3,6 +3,7 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
+/* set defult design */
 .btn {
     color: white;
     font-weight: 700;
@@ -11,6 +12,22 @@
     padding: 10px 20px;
     border-radius: 5px;
 }
+.container{
+    padding: 0 100px;
+}
+h1{
+    font-size: 52px;
+    margin-bottom: 15px;
+}
+h2{
+    font-size: 32px;
+    margin-bottom: 12px;
+}
+p{
+    font-size: 17px;
+}
+
+/* header design */
 #hero_header{
     display: flex;
     flex-direction: column;
@@ -23,13 +40,51 @@
 }
 #hero_header h1{
     color: white;
-    font-size: 52px;
-    margin-bottom: 15px;
     width: 55%;
 }
 #hero_header p{
     color: white;
     font-size: 17px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     width: 50%;
+}
+
+/* dotate today section design */
+#donate_today{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 100px 0;
+}
+#donate_today p{
+    width: 50%;
+    margin-bottom: 20px;
+}
+.select_amount{
+    display: flex;
+    margin: 10px 0;
+}
+.amount{
+    height: 90px;
+    width: 100px;
+    background-color: #f6f6f6;
+    color: #646464;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+    font-weight: 800;
+    font-size: 20px;
+    border-radius: 3px;
+}
+.select_amount .active {
+    background-color: #ff6d5a27;
+    border: 2px solid #ff5c47;
+    color: #ff5c47;
+}
+#donate_today h4 {
+    color: gray;
+    font-weight: 400;
+    margin: 25px;
 }
