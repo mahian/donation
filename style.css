@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
 /* set defult design */
@@ -110,4 +111,29 @@ p{
 .card p{
     font-size: 16px;
     margin-bottom: 0 !important;
+}
+
+/* some word section */
+
+#some_words .item{
+    display: flex;
+    align-items: center;
+    padding: 40px 0;
+}
+#some_words h2{
+    margin-bottom: 12px;
+}
+#some_words p{
+    margin-bottom: 25px;
+}
+#some_words .image_container img{
+    border-radius: 5px;
+    width: 100%;
+}
+#some_words .image_container{
+    width: 50%;
+}
+#some_words .text_content{
+    width: 50%;
+    padding: 0 20px;
 }
