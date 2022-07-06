@@ -49,15 +49,12 @@ p{
 }
 
 /* dotate today section design */
-#donate_today{
-    padding: 80px 0;
-}
 .first_container, .second_container{
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
-    margin: 40px 0;
+    margin: 100px 0;
 }
 #donate_today p{
     margin-bottom: 20px;
@@ -97,9 +94,18 @@ p{
     flex-direction: column;
     text-align: left;
     background-color: #f6f6f6;
-    margin: 0 5px;
+    margin: 15px;
     padding: 40px;
     border-radius: 5px;
+}
+.card-1{
+    background-color: #23e4234f;
+}
+.card-2{
+    background-color: #ff6d5a51;
+}
+.card-3{
+    background-color: rgba(255, 255, 0, 0.358);
 }
 .card img{
     width: 50px;
@@ -140,6 +146,7 @@ p{
 /* update form section design */
 #update_form{
     text-align: center;
+    padding: 40px 0;
 }
 #update_form form{
     background-color: #ff5c4775;
